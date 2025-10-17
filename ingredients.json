@@ -1,0 +1,351 @@
+[
+  {
+    "id": "ing_aqua",
+    "inci": "Aqua",
+    "aliases": [
+      "Water",
+      "Água"
+    ],
+    "funcao": "Veículo",
+    "origem": "Natural",
+    "faixa_min": 0.0,
+    "faixa_max": 99.0,
+    "pH_min": 2.0,
+    "pH_max": 9.0,
+    "solubilidade": "Hidrossolúvel",
+    "incompatibilidades": [],
+    "regulatorio": {
+      "geral": {
+        "status": "Permitido"
+      }
+    },
+    "fornecedores": [
+      {
+        "nome": "Genérico",
+        "preco_kg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "ing_glycerin",
+    "inci": "Glycerin",
+    "aliases": [
+      "Glicerina"
+    ],
+    "funcao": "Umectante",
+    "origem": "Natural",
+    "faixa_min": 0.5,
+    "faixa_max": 10.0,
+    "pH_min": 3.0,
+    "pH_max": 9.0,
+    "solubilidade": "Hidrossolúvel",
+    "incompatibilidades": [],
+    "regulatorio": {
+      "leave_on": {
+        "status": "Permitido"
+      }
+    },
+    "fornecedores": [
+      {
+        "nome": "Bioquim",
+        "preco_kg": 12.0
+      }
+    ]
+  },
+  {
+    "id": "ing_xanthan",
+    "inci": "Xanthan Gum",
+    "aliases": [
+      "Goma Xantana"
+    ],
+    "funcao": "Espessante",
+    "origem": "Natural",
+    "faixa_min": 0.1,
+    "faixa_max": 1.0,
+    "pH_min": 3.0,
+    "pH_max": 9.0,
+    "solubilidade": "Hidrossolúvel",
+    "incompatibilidades": [
+      "Eletrolitos elevados"
+    ],
+    "regulatorio": {
+      "geral": {
+        "status": "Permitido"
+      }
+    },
+    "fornecedores": [
+      {
+        "nome": "Bioquim",
+        "preco_kg": 60.0
+      }
+    ]
+  },
+  {
+    "id": "ing_coco_glucoside",
+    "inci": "Coco-Glucoside",
+    "aliases": [],
+    "funcao": "Tensoativo não iônico suave",
+    "origem": "Natural",
+    "faixa_min": 3.0,
+    "faixa_max": 15.0,
+    "pH_min": 5.0,
+    "pH_max": 8.0,
+    "solubilidade": "Hidrossolúvel",
+    "incompatibilidades": [],
+    "regulatorio": {
+      "rinse_off": {
+        "status": "Permitido"
+      }
+    },
+    "fornecedores": [
+      {
+        "nome": "GreenChem",
+        "preco_kg": 22.0
+      }
+    ]
+  },
+  {
+    "id": "ing_disodium_cglut",
+    "inci": "Disodium Cocoyl Glutamate",
+    "aliases": [],
+    "funcao": "Tensoativo aniônico suave",
+    "origem": "Natural",
+    "faixa_min": 2.0,
+    "faixa_max": 10.0,
+    "pH_min": 5.0,
+    "pH_max": 7.5,
+    "solubilidade": "Hidrossolúvel",
+    "incompatibilidades": [
+      "pH < 4.5"
+    ],
+    "regulatorio": {
+      "rinse_off": {
+        "status": "Permitido"
+      }
+    },
+    "fornecedores": [
+      {
+        "nome": "GreenChem",
+        "preco_kg": 32.0
+      }
+    ]
+  },
+  {
+    "id": "ing_betaine",
+    "inci": "Cocamidopropyl Betaine",
+    "aliases": [],
+    "funcao": "Co-tensoativo anfótero",
+    "origem": "Derivado natural",
+    "faixa_min": 2.0,
+    "faixa_max": 12.0,
+    "pH_min": 5.0,
+    "pH_max": 8.0,
+    "solubilidade": "Hidrossolúvel",
+    "incompatibilidades": [],
+    "regulatorio": {
+      "rinse_off": {
+        "status": "Permitido"
+      }
+    },
+    "fornecedores": [
+      {
+        "nome": "TensoTech",
+        "preco_kg": 18.0
+      }
+    ]
+  },
+  {
+    "id": "ing_salt",
+    "inci": "Sodium Chloride",
+    "aliases": [
+      "Cloreto de Sódio"
+    ],
+    "funcao": "Ajuste de viscosidade",
+    "origem": "Mineral",
+    "faixa_min": 0.0,
+    "faixa_max": 3.0,
+    "pH_min": 2.0,
+    "pH_max": 9.0,
+    "solubilidade": "Hidrossolúvel",
+    "incompatibilidades": [
+      "Espessantes sensíveis a eletrólitos"
+    ],
+    "regulatorio": {
+      "geral": {
+        "status": "Permitido"
+      }
+    },
+    "fornecedores": [
+      {
+        "nome": "QuimSal",
+        "preco_kg": 0.9
+      }
+    ]
+  },
+  {
+    "id": "ing_sodium_benzoate",
+    "inci": "Sodium Benzoate",
+    "aliases": [],
+    "funcao": "Conservante",
+    "origem": "Derivado natural",
+    "faixa_min": 0.15,
+    "faixa_max": 0.5,
+    "pH_min": 3.0,
+    "pH_max": 5.5,
+    "solubilidade": "Hidrossolúvel",
+    "incompatibilidades": [
+      "pH > 5.5 (eficácia reduzida)"
+    ],
+    "regulatorio": {
+      "leave_on": {
+        "status": "Restrito"
+      },
+      "rinse_off": {
+        "status": "Permitido"
+      }
+    },
+    "fornecedores": [
+      {
+        "nome": "ConservaPlus",
+        "preco_kg": 25.0
+      }
+    ]
+  },
+  {
+    "id": "ing_citric",
+    "inci": "Citric Acid",
+    "aliases": [
+      "Ácido Cítrico"
+    ],
+    "funcao": "Ajuste de pH",
+    "origem": "Natural",
+    "faixa_min": 0.01,
+    "faixa_max": 1.0,
+    "pH_min": 2.0,
+    "pH_max": 6.0,
+    "solubilidade": "Hidrossolúvel",
+    "incompatibilidades": [
+      "Polímeros catiônicos em pH muito baixo"
+    ],
+    "regulatorio": {
+      "geral": {
+        "status": "Permitido"
+      }
+    },
+    "fornecedores": [
+      {
+        "nome": "Bioacids",
+        "preco_kg": 7.0
+      }
+    ]
+  },
+  {
+    "id": "ing_parfum_nat",
+    "inci": "Parfum (Natural)",
+    "aliases": [
+      "Fragrance (Natural)"
+    ],
+    "funcao": "Fragrância",
+    "origem": "Natural",
+    "faixa_min": 0.05,
+    "faixa_max": 1.0,
+    "pH_min": 3.0,
+    "pH_max": 8.0,
+    "solubilidade": "Óleo-solúvel",
+    "incompatibilidades": [
+      "Turbidez em sistemas aquosos sem solubilizante"
+    ],
+    "regulatorio": {
+      "geral": {
+        "status": "Alergênicos declarados quando aplicável"
+      }
+    },
+    "fornecedores": [
+      {
+        "nome": "AromaVerde",
+        "preco_kg": 120.0
+      }
+    ]
+  },
+  {
+    "id": "ing_cetearyl_alcohol",
+    "inci": "Cetearyl Alcohol",
+    "aliases": [],
+    "funcao": "Co-emulsionante/Consistência",
+    "origem": "Derivado natural",
+    "faixa_min": 1.0,
+    "faixa_max": 10.0,
+    "pH_min": 4.0,
+    "pH_max": 8.0,
+    "solubilidade": "Insolúvel em água",
+    "incompatibilidades": [],
+    "regulatorio": {
+      "leave_on": {
+        "status": "Permitido"
+      }
+    },
+    "fornecedores": [
+      {
+        "nome": "EmulPlus",
+        "preco_kg": 14.0
+      }
+    ]
+  },
+  {
+    "id": "ing_gsc",
+    "inci": "Glyceryl Stearate Citrate",
+    "aliases": [],
+    "funcao": "Emulsionante O/A",
+    "origem": "Natural",
+    "faixa_min": 1.0,
+    "faixa_max": 4.0,
+    "pH_min": 4.0,
+    "pH_max": 7.0,
+    "solubilidade": "Óleo-solúvel",
+    "incompatibilidades": [
+      "pH > 7"
+    ],
+    "regulatorio": {
+      "leave_on": {
+        "status": "Permitido"
+      }
+    },
+    "fornecedores": [
+      {
+        "nome": "EmulPlus",
+        "preco_kg": 38.0
+      }
+    ]
+  },
+  {
+    "id": "ing_ba_dha",
+    "inci": "Benzyl Alcohol (and) Dehydroacetic Acid",
+    "aliases": [
+      "Geogard 221"
+    ],
+    "funcao": "Conservante amplo espectro",
+    "origem": "Aceito em naturais",
+    "faixa_min": 0.6,
+    "faixa_max": 1.2,
+    "pH_min": 2.0,
+    "pH_max": 7.0,
+    "solubilidade": "Hidrossolúvel",
+    "incompatibilidades": [
+      "Aminas fortes"
+    ],
+    "regulatorio": {
+      "leave_on": {
+        "status": "Restrito"
+      },
+      "rinse_off": {
+        "status": "Permitido"
+      }
+    },
+    "fornecedores": [
+      {
+        "nome": "ConservaPlus",
+        "preco_kg": 68.0
+      }
+    ]
+  }
+]

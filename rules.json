@@ -1,0 +1,85 @@
+{
+  "categorias": {
+    "shampoo": {
+      "pH_min": 4.5,
+      "pH_max": 6.5,
+      "observacoes": [
+        "Preferir tensoativos suaves; verificar eficácia do conservante no pH final."
+      ],
+      "limites": [
+        {
+          "inci": "Sodium Benzoate",
+          "max_pct": 0.5,
+          "nota": "Eficiência melhor pH ≤ 5.5"
+        },
+        {
+          "inci": "Coco-Glucoside",
+          "max_pct": 15.0
+        },
+        {
+          "inci": "Cocamidopropyl Betaine",
+          "max_pct": 12.0
+        }
+      ],
+      "proibicoes": []
+    },
+    "condicionador": {
+      "pH_min": 3.5,
+      "pH_max": 5.5,
+      "observacoes": [
+        "Compatibilizar com catiônicos; evitar pH muito baixo com polímeros sensíveis."
+      ],
+      "limites": [
+        {
+          "inci": "Benzyl Alcohol (and) Dehydroacetic Acid",
+          "max_pct": 1.2
+        },
+        {
+          "inci": "Cetearyl Alcohol",
+          "max_pct": 10.0
+        },
+        {
+          "inci": "Glyceryl Stearate Citrate",
+          "max_pct": 4.0
+        }
+      ],
+      "proibicoes": []
+    },
+    "creme_corporal": {
+      "pH_min": 4.5,
+      "pH_max": 6.5,
+      "observacoes": [
+        "Evitar fragrâncias excessivas; checar alergênicos rotuláveis."
+      ],
+      "limites": [
+        {
+          "inci": "Parfum (Natural)",
+          "max_pct": 1.0
+        },
+        {
+          "inci": "Benzyl Alcohol (and) Dehydroacetic Acid",
+          "max_pct": 1.2
+        }
+      ],
+      "proibicoes": []
+    }
+  },
+  "globais": [
+    {
+      "regra": "soma_percentuais_igual_100",
+      "severidade": "erro"
+    },
+    {
+      "regra": "respeitar_faixas_ingredientes",
+      "severidade": "erro"
+    },
+    {
+      "regra": "respeitar_pH_categoria",
+      "severidade": "alerta"
+    },
+    {
+      "regra": "checar_incompatibilidades",
+      "severidade": "alerta"
+    }
+  ]
+}
